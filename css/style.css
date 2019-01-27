@@ -1,0 +1,386 @@
+body, h1, h2, h3{
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+/* img{
+  max-width: 100%;
+} */
+.container{
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.menu{
+  margin-top: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.name{
+  display: block;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 15px;
+  color: #2b2a2c;
+  
+}
+.menu-logo{
+  display: flex;
+  align-items: center;
+}
+.avatar{
+  width: 57px;
+  height: 57px;
+  background : #2b2a2c url(https://pp.userapi.com/c834103/v834103772/4afd/YpGbHEoMIuk.jpg) ;
+  background-size: 100%;
+  border-radius: 50%;
+  margin-right: 9px;
+}
+.menu-list{
+  display: flex;
+  align-items: center;
+  
+}
+.menu-list a{
+  text-decoration: none;
+  color: #2b2a2c;
+  font-size: 14px;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-right: 34px;
+  position: relative;
+}
+.menu-list a::after {
+  content: "";
+  height: 3px;
+  width: 0%;
+  background-color: #2b2a2c;
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  transform: translateX(-50%);
+}
+.menu-list a:hover::after {
+  transition: all 0.3s;
+  width: 100%;
+}
+.menu-button{
+  color: #2b2a2c;
+  font-size: 14px;
+  font-weight: 800;
+  text-transform: uppercase;
+  background-color: transparent;
+  border-radius: 50px;
+  border: 2px solid #2b2a2c;
+  padding: 13px 22px;
+  outline: none;
+  cursor: pointer;
+}
+
+.hero-box{
+  padding-top: 110px;
+  padding-bottom: 110px;
+  background: url('https://wmpics.pics/di-1X4G.png') no-repeat right bottom ;
+  background-size: 100%;
+  max-height: 480px;
+}
+.hero-subtitle{
+  font-size: 32px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+.hero-title{
+  font-size: 45px;
+  font-weight: 700;
+  
+}
+.hero-descr{
+  font-size: 18px;
+  font-weight: 400;
+  color: #6a696b;
+}
+.hero-social{
+  margin-top: 26px;
+}
+.social{
+ display: inline-block;
+  width: 41px;
+  height: 41px;
+  color: #fff;
+  margin-right: 10px;
+  text-align: center;
+  line-height: 41px;
+}
+.behance-bg{
+  background-color: #1869ff;
+}
+.facebook-bg{
+  background-color: #3a5898;
+}
+.instagram-bg{
+  background-color: #13578a;
+}
+.vk-bg{
+  background-color: #56acef;
+}
+.hero-buttons{
+  margin-top: 42px;
+}
+.button{
+  display: inline-block;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 800;
+  padding: 20px 34px;
+  border-radius: 50px;
+  background-color: #2b2a2c;
+}
+.button-primary{
+  color:#fff;
+}
+.button-o{
+  background-color: transparent;
+  border: 1px solid #6a696b;
+  color: #6a696b;
+  margin-left: 17px;
+  
+}
+.projects{
+  padding: 97px 0;
+}
+.project-cards{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.project-card{
+  width: 370px;
+  min-height: 370px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+  margin-bottom: 50px;
+}
+.project-card__img{
+  height: 300px;
+}
+.dela{
+  background: url('https://psychotext.ru/public/files/images/lp_prototip.png') center no-repeat;
+  background-size: cover;
+}
+.landing{
+  background: url('https://mrtruman.ru/uploads/image/9996200dcc3817f88dbb4acde54a807d.png') center no-repeat;
+  background-size: cover;
+}
+.dis_studio{
+  background: url('http://freelance.ru/img/portfolio/pics/00/2D/19/2955724.jpg') center no-repeat;
+  background-size: cover;
+}
+.salonb{
+  background: url('http://web-mex.ru/wp-content/uploads/2018/07/landingpage.png') center no-repeat;
+  background-size: cover;
+}
+.avukat{
+  background: url('https://perm.revanta.ru/img/sm-p1.jpg') center no-repeat;
+  background-size: 100%;
+}
+.home-dis{
+  background: url('https://rusability.ru/wp-content/uploads/2016/02/252.png') center no-repeat;
+  background-size: cover;
+}
+.kitchen{
+  background: url('https://kwork.ru/pics/t3/81/489466-343071-1-1539325936.jpg') center no-repeat;
+  background-size: cover;
+}
+.shop{
+  background: url('https://kwork.ru/pics/t3/63/461245-324165-2-1537867224.jpg') center no-repeat;
+  background-size: cover;
+}
+.okul{
+  background: url('https://www.bramabrama.ru/data/cache/74/09/74091395ef1e5ead5309d8cc3dbbe5b9.jpg') center no-repeat;
+  background-size: cover;
+}
+.project-card__info{
+  padding: 19px 20px 16px 13px;
+}
+.project-categoty{
+  display: block;
+  color: #2b2a2c;
+  font-size: 12px;
+  margin-bottom: 13px;
+}
+.project-title{
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.about-box{
+  padding-top: 112px;
+  padding-bottom: 112px;
+  background: url("https://derpicdn.net/img/2015/3/21/854161/medium.png") left bottom no-repeat;
+  display: flex;
+  justify-content: flex-end;
+  
+}
+.about-text{
+  flex-basis: 471px;
+  align-self: center;
+}
+.about-text__title{
+  color: #2b2a2c;
+  font-size: 45px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.about-text__descr{
+  color: #717072;
+  font-size: 12px;
+  font-weight: 300;
+}
+.footer{
+  background-color: #2b2a2c;
+  padding: 20px 0;
+  color: #8d8d8e;
+}
+.footer a{
+  color: #8d8d8e;
+  text-decoration: none;
+}
+.footer-info{
+  display: flex;
+  justify-content: space-between;
+  
+  
+}
+.footer-text{
+  display: flex;
+  align-items: center;
+  
+}
+.copyright{
+  padding-right: 16px;
+  margin-right: 16px;
+  border-right: 1px solid #413f41;
+  font-size: 14px;
+}
+.footer-social__link{
+  font-size: 22px;
+  margin-right: 13px;
+  
+}
+.footer-menu{
+  display: flex;
+  align-items: center;
+  
+}
+.footer-menu a{
+  display: inline-block;
+  font-size: 14px;
+  margin-right: 30px;
+}
+.footer-button{
+ 
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 8px 23px;
+  border-radius: 50px;
+  background-color: #2b2a2c;
+  border: 1px solid #8d8d8e;
+}
+@media (max-width: 1200px){
+  .container{
+    width: 965px;
+  }
+  .project-card{
+    width: 48%;
+  }
+}
+@media (max-width: 992px){
+  .container{
+    width: 750px;
+  }
+  .project-card{
+    width: 48%;
+  }
+  .footer-menu a{
+    margin-right: 5%;
+    font-size: 10px;
+    margin-right: 7px;
+  }
+  .project{
+    padding-bottom: 0;
+  }
+  .about-box{
+    padding-bottom: 650px;
+    padding-top: 0;
+    
+  }
+  .about-text{
+    flex-basis: 750px;
+  }
+  
+}
+@media (max-width: 765px){
+  .container{
+    width: 95%;
+  }
+  .menu-list{
+    display: none;
+  }
+  .descr_small{
+    font-size: 10px;
+  }
+  
+  .hero{
+    background: url('http://gamepony.ru/images/di3.jpg') no-repeat  bottom;
+    padding-bottom: 270px;
+    
+  }
+  .hero-box{
+    background: none;
+    padding-top: 30px;
+  }
+  .button-primary{
+    margin-bottom: 10px;
+    margin-right: 17px;
+  }
+  .button-o{
+    margin-left: 0;
+  }
+  .project-card{
+    width: 95%;
+    margin: 20px auto;
+  }
+  .about-box{
+    padding-bottom: 650px;
+  }
+  
+  .footer-info{
+    flex-flow: column-reverse;
+    justify-content: center;
+    align-items: center;
+    
+    
+  }
+  .footer-menu{
+    margin-bottom: 15px;
+  }
+  .footer-text{
+    flex-flow: row-reverse;
+  }
+  .footer-menu a{
+    
+    font-size: 15px;
+    margin-right: 30px;
+  }
+  .copyright{
+    border-right: none;
+    margin-left: 5%;
+    padding-left: 5%px;
+  }
+ 
+}
